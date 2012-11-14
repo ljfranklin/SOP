@@ -2,14 +2,29 @@
 \documentclass[11pt]{article}
 
 \usepackage[utf8x]{inputenc}
+\usepackage{fullpage}
+\usepackage{sectsty}
 
-\newcommand{\name}[1]{\hfill \textbf{#1}}
-\newcommand{\program}[1]{\hfill \textbf{#1}}
+\sectionfont{\large}
+\subsectionfont{\small}
+\setcounter{section}{1}
+
+\newcommand{\name}[1]{\textbf{#1}}
+\newcommand{\program}[1]{\textbf{#1}}
 
 \begin{document}
+%\raggedright
 
 \program{M.S. in Computer Science}
 
 \name{Lyle Franklin}
+
+\input{introduction}
+
+\input{experiences}
+
+\input{interests}
+
+\input{school}
 
 \end{document}
