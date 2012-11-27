@@ -2,3 +2,6 @@
 *.log
 *.aux
 *.backup
+*.synctex
+*.bbl
+*.blg
